@@ -1,0 +1,109 @@
+body{
+	font-family: 'Open Sans';
+}
+
+.city-bg{
+	background: url('../img/background/city.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 0%;
+}
+
+.row_opacity{
+	background: rgba(0, 0, 0, .6);
+}
+
+.btn-call{
+	color:white;
+	margin-top: 20px;
+}
+
+button.btn-call:hover{
+	background-color: transparent;
+	color:white;
+}
+
+.box-gray {
+	min-height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-black {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 110px;
+}
+
+.btn-black-card {
+	background-color: black !important;
+    color: white !important;
+    padding: 10px 35px !important;
+    border-radius: 0px !important;
+    margin-bottom: 7px !important;
+}
+
+/*SECCION DE FORMULARIO*/
+.contacto-bg{
+    background: url('../img/background/contactus.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 0%;
+}
+
+
+.direccion > i {
+    padding-right:7px;
+}
+
+.photo_circle{
+    border-radius: 50%;
+    width: 13rem;
+}
+
+.text-customers{
+    color:#949494;
+    white-space: pre-wrap;
+}
+
+.card_width{
+    background: white;
+    box-sizing: border-box;
+    padding: 12% 4% 4%;
+    box-shadow: 0px 1px 2px 0px gray;
+}
+
+.btn-form{
+    background-color: #0DC0C0;
+    border-radius: 0;
+    float: left;
+    height: 50px;
+    font-size: 18px;
+}
+
+.input_height{
+    height: 42px;
+}
+
+.social-icons{
+    display: inline-block;
+    font-size: 4rem;
+    color: #222222;
+    margin-right: 7px;
+}
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 991px){
+    .pl-5{
+        padding-left: 0%;
+    }
+    .card_width{
+        padding: 6% 2% 3%;
+    }
+    .ph-9{
+        padding-left: 9% !important;
+        padding-right: 9% !important;
+    }
+}

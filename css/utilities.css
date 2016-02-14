@@ -1,0 +1,202 @@
+/* Font weight */
+strong { 
+	font-weight: 600; 
+}
+.f-600 {
+	font-weight: 600;
+}
+.f-400 {
+	font-weight: 400;
+}
+
+.f-300{
+	font-weight: 300;
+}
+
+.f-1{
+	 font-size: 1.5rem;
+}
+
+.f-4{
+	font-size: 4rem;
+}
+.
+/* Paddings */
+.pd-2 {
+	padding: 2rem !important;
+}
+
+.pv-56 {
+	padding-top: 56px !important;
+	padding-bottom: 56px !important;
+}
+
+.pv-0 {
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+.pt-10{
+	padding-top: 10rem;
+	box-sizing: border-box;
+}
+
+.pv-2{
+	padding-top: 2% !important;
+	padding-bottom: 2% !important;
+}
+
+.ph-7{
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+.pt-42{
+	padding-top: 42px;
+}
+
+.pb-11{
+	padding-bottom: 11rem;
+}
+
+.pb-42{
+	padding-bottom: 42px;
+}
+
+.pb-63{
+	padding-bottom: 63px;
+}
+.pl-5{
+	padding-left: 5%;
+}
+
+.mg-0{
+	margin: 0;
+}
+
+.mt-0{
+	margin-top: 0;
+}
+
+.mt-7 {
+	margin-top: 7px !important;
+}
+
+.mt-14{
+	margin-top: 14px !important;
+}
+.mt-35 {
+	margin-top: 35px !important;
+}
+
+.mb-0 {
+	margin-bottom: 0px !important;
+}
+
+.mb-7 {
+	margin-bottom: 7px !important;
+}
+.mb-21 {
+	margin-bottom: 21px !important;
+}
+
+.mb-35{
+	margin-bottom: 35px;
+}
+
+.mb-42{
+	margin-bottom: 42px;
+}
+
+.mt-63 {
+	margin-top: 63px;
+}
+
+.w-100{
+	width: 100%;
+}
+
+.lh{
+	line-height: 4.5rem;
+}
+
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+
+.text-white{
+	color: white;
+}
+.text-gray{
+	color: #888;
+}
+
+.text-green{
+ 	color: #0dc0c0;
+}
+
+.text-about{
+	color:#666666;
+}
+
+.active {
+	color: #0dc0c0;
+}
+
+.a-none-decoration{
+	text-decoration: none;
+}
+.bg-gray{
+	background-color: rgb(244, 244, 244);
+}
+
+.bg-green{
+	background-color:#0DC0C0;
+}
+
+.bg-black{
+	background-color: #222222;
+}
+
+.bg-white{
+	background-color: white;
+}
+
+.bg-img-block {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.border-bottom-gray {
+	border-bottom: 1px solid gray !important;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.transparent {
+        /*background-color: transparent; */
+        background: url('../img/bg_transparent.png');
+        border:none;
+        border-radius: 0;
+        font-weight: 600;
+}
+
+.bbt-none{
+	border: none;
+}
+
+hr{
+	 border: -1px solid #DDDDDD; 
+	 width: 80%;
+	 align-content: center;
+}
+
